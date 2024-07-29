@@ -1,11 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        int array[] = new int[]{12,4,67,43,55,3,2,28,13};
-        bubbbleSort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+        ArrayStack mystack = new ArrayStack(3);
+        mystack.push(1);
+        mystack.push(2);
+        mystack.push(3);
+        mystack.push(4);
+        mystack.push(5);
+        System.out.println(mystack.pop());
+        mystack.print();
+       // int array[] = new int[]{12,4,67,43,55,3,2,28,13};
+       // bubbbleSort(array);
+       // for (int i = 0; i < array.length; i++) {
+           // System.out.println(array[i]);
 
-        }
+       // }
     }
     public static int[] swap(int[] arr, int indx1, int indx2){
         int temp = arr[indx1];
