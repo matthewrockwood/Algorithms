@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        LLStack stk = new LLStack();
-        stk.push(2);
-        stk.push(3);
-        stk.pop();
-        stk.push(423);
-        stk.print();
+       ArrayQueue que = new ArrayQueue();
+       que.enqueue(1);
+        que.enqueue(1);
+        que.dequeue();
+        que.enqueue(1);
+        que.enqueue(1);
+        que.enqueue(1);
+
 
        // int array[] = new int[]{12,4,67,43,55,3,2,28,13};
        // bubbbleSort(array);
