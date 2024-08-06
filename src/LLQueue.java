@@ -1,7 +1,7 @@
 public class LLQueue {
     private Node front=null;
     private Node back = null;
-    private class Node{
+    public class Node{
          int data;
          Node next;
         Node(int data){
